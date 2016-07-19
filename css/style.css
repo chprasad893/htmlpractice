@@ -10,6 +10,10 @@ h1 {
 
 div {
   width: 500px;
-  background-color: red;
-  margin: auto;
+  border-color: inherit;
+  margin:auto;
+  text-align: center;
+}
+body{
+  background-color: grey;
 }

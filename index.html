@@ -1,16 +1,28 @@
 <!doctype html>
 <html>
-<head>
-   <meta charset="utf-8" />
-   <title>My First Website</title>
-   <link rel="stylesheet" href="css/style.css"/>
-</head>
-<body>
-<div>
-  <h1>My heading</h1>
-  <p><a href="pages/hello world.html">First Page</p></a>
+  <head>
+<meta charset="utf-8" />
+<style>
+ul:first-of-type li:nth-child(3){color: orange;}
 
-  <img src="https://www.google.co.in/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="google logo" height="50" width="50" />
-</div>
+</style>
+  </head>
+<body>
+
+
+<ul >
+   <li >Go to the mall</li>
+   <li>Shop</li>
+   <li id="element">Get gas</li>
+   <li>Drive home</li>
+</ul>
+
+<ul>
+   <li class="element">Go to the mall</li>
+   <li>Shop</li>
+   <li class="element">Get gas</li>
+   <li>Drive home</li>
+</ul>
+
 </body>
 </html>
