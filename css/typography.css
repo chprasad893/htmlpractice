@@ -1,0 +1,15 @@
+h1{
+  font-size: 120px;
+  text-align: center;
+  margin-top: 50px;
+  /*font-family:sans-serif;*/
+  font-family: 'Smokum', cursive;
+  letter-spacing: 1px;
+  color: black;
+  text-transform: lowercase;
+  text-shadow:0 1px 0 white;
+  font-variant: small-caps;
+}
+body{
+  background: grey;
+}
