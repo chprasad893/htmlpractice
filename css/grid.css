@@ -1,3 +1,20 @@
-.container_12{
-  background: red;
+.container_12{  background: red;}
+
+/*h1{  background: yellow;}*/
+/*nav {background: orange; }*/
+nav li{  display: inline;  margin-left: 0;margin-right: 30px;}
+
+aside  {background:green;}
+aside1 {background:#e3e3e3;margin-top: 10px;}
+.primary{ background: #e3e3e3;}
+
+header{  background: yellow;}
+
+.main{margin: 30px 0;}
+
+section{
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing: border-box;
+  padding: 15px;
 }
